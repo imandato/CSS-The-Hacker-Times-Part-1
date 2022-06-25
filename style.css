@@ -3,9 +3,93 @@
 .newspaper-container{
     width: 700px;
     border-radius: 25px;
-    box-shadow: 5px;
+    box-shadow: 5px #ddd;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
+    background-color: white;
+    margin: 4em auto;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin:0;
+    color: #777;
+}
+
+header{
+    font-family: 'Abril Fatface';
+}
+
+body{
+    font-family: 'Source Sans Pro';
+    background-color: #eee;
+    font-weight: 100;
+}
+
+main h2{
+    font-family: 'Roboto Slab';
+}
+
+main img{
+    width: 100%;
+}
+
+.date {
+    font-family: 'Source Sans Pro';
+}
+
+nav a {
+    color: #777;
+    text-decoration: none;
+}
+
+.more-articles{
+    border-top: 1px solid #eee;
+    text-align: center;
+}
+
+.more-articles section{
+    display: inline-block;
+    width: 45%;
+    margin: 0 1em;
+}
+
+.more-articles img{
+    width: 100%
+}
+
+.more-articles h4{
+    font-family: 'Roboto Slab';
+    text-align: left;
+}
+
+main h5{
+    font-family: 'Abril Fatface';
+    color: #dd3232;
+}
+
+p{
+    text-align: justify;
 }
